@@ -1,5 +1,6 @@
 # Scan your code with SonarQube [![QA](https://github.com/SonarSource/sonarqube-scan-action/actions/workflows/qa.yml/badge.svg)](https://github.com/SonarSource/sonarqube-scan-action/actions/workflows/qa.yml)
 
+
 Using this GitHub Action, scan your code with [SonarQube](https://www.sonarqube.org/) to detects Bugs, Vulnerabilities and Code Smells in up to 27 programming languages!
 
 <img src="./images/SonarQube-72px.png">
@@ -9,6 +10,7 @@ SonarQube is the leading product for Continuous Code Quality & Code Security. It
 ## Requirements
 
 To run an analysis on your code, you first need to set up your project on SonarQube. Your SonarQube instance must be accessible from GitHub, and you will need an access token to run the analysis (more information below under **Environment variables**).
+https://img.shields.io/badge/<show>-<analysis>-<red>
 
 Read more information on how to analyze your code [here](https://docs.sonarqube.org/latest/analysis/github-integration/).
 
