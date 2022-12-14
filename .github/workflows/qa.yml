@@ -10,7 +10,7 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
       - run: ./test/run-qa.sh
-        timeout-minutes: 5
+        timeout-minutes: 4
     services:
       sonarqube:
         image: sonarqube:8.9-community
